@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30475" started-at="2018-07-15T14:29:46Z" finished-at="2018-07-15T14:30:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30475" started-at="2018-07-15T14:29:46Z" finished-at="2018-07-15T14:30:17Z">
+      <class name="com.csam.TestCases.AccountSummarySteps">
+        <test-method status="PASS" signature="before_Suite()[pri:0, instance:com.csam.TestCases.AccountSummarySteps@42dafa95]" name="before_Suite" is-config="true" duration-ms="1788" started-at="2018-07-15T19:59:44Z" finished-at="2018-07-15T19:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Suite -->
+        <test-method status="PASS" signature="before_Test()[pri:0, instance:com.csam.TestCases.AccountSummarySteps@42dafa95]" name="before_Test" is-config="true" duration-ms="4773" started-at="2018-07-15T19:59:46Z" finished-at="2018-07-15T19:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Test -->
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.csam.TestCases.AccountSummarySteps@42dafa95]" name="setDriver" is-config="true" duration-ms="1" started-at="2018-07-15T19:59:51Z" finished-at="2018-07-15T19:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="open_App()[pri:0, instance:com.csam.TestCases.AccountSummarySteps@42dafa95]" name="open_App" duration-ms="6382" started-at="2018-07-15T19:59:51Z" finished-at="2018-07-15T19:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_App -->
+        <test-method status="PASS" signature="login_App()[pri:0, instance:com.csam.TestCases.AccountSummarySteps@42dafa95]" name="login_App" duration-ms="15705" started-at="2018-07-15T19:59:57Z" finished-at="2018-07-15T20:00:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_App -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.csam.TestCases.AccountSummarySteps@42dafa95]" name="closedriver" is-config="true" duration-ms="3563" started-at="2018-07-15T20:00:13Z" finished-at="2018-07-15T20:00:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.csam.TestCases.AccountSummarySteps@42dafa95]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-07-15T20:00:17Z" finished-at="2018-07-15T20:00:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.csam.TestCases.AccountSummarySteps -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

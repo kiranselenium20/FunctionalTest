@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.csam.TestCases.AccountSummarySteps">
+        <methods>
+          <include name="closedriver"/>
+          <include name="afterSuite"/>
+          <include name="before_Suite"/>
+          <include name="setDriver"/>
+          <include name="open_App"/>
+          <include name="login_App"/>
+          <include name="before_Test"/>
+        </methods>
+      </class> <!-- com.csam.TestCases.AccountSummarySteps -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
