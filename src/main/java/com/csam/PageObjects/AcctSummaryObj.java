@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 
 public class AcctSummaryObj {
 	/*Login Page objects*/
-	public By UserName=By.xpath(".//*[@id='ContentPlaceHolder1_LoginUserIdText']");
-	public By Password=By.xpath(".//*[@id='ContentPlaceHolder1_PasswordText']");
-	public By signButton=By.xpath(".//*[@id='ContentPlaceHolder1_LoginButton']");
+	public By UserName=By.xpath("//input[@id='ContentPlaceHolder1_LoginUserIdText']");
+	public By Password=By.xpath("//input[@id='ContentPlaceHolder1_PasswordText']");
+	public By signButton=By.xpath("//input[@id='ContentPlaceHolder1_LoginButton']");
 	public By welcomeText=By.xpath(".//[@id='ContentPlaceHolder1_PortalLandingPageTitle']");
 	
 	/* Help menu object*/
