@@ -42,4 +42,14 @@ public class WebEdit {
 		}
 		return "";
 	}
+	
+	public static String GetTextUsingAttribute(WebDriver driver,By by){
+		WebElement ele = driver.findElement(by);
+		if(IsPresent(driver, by)){
+			if(IsEnabled(driver,by)){
+				return ele.getAttribute("value");
+			}
+		}
+		return "";
+	}
 }
