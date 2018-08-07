@@ -21,7 +21,7 @@ public class TRunner {
 	@BeforeSuite
 	public void before_Suite(){
 		try{
-			ExFunctions.createOutPutfile();
+			 ExFunctions.createOutPutfile();
 		}catch(Exception e){
 			e.printStackTrace();
 		}
